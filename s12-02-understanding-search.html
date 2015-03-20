@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link href="shared/bookhub.css" rel="stylesheet" type="text/css">
+  <title>Understanding Search</title>
+</head>
+<body>
+
+  
+  <div id=navbar-top class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s12-01-introduction.html"><img src="shared/images/batch-left.png"></a> <a href="s12-01-introduction.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s12-03-understanding-the-increase-in-.html">Next Section</a> <a href="s12-03-understanding-the-increase-in-.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  <div id="book-content">
+    <div class="section" id="gallaugher-ch08_s02" condition="start-of-chunk" version="5.0" lang="en">
+    <h2 class="title editable block">
+<span class="title-prefix">8.2</span> Understanding Search</h2>
+    <div class="learning_objectives editable block" id="gallaugher-ch08_s02_n01">
+        <h3 class="title">Learning Objectives</h3>
+        <p class="para" id="gallaugher-ch08_s02_p01">After studying this section you should be able to do the following:</p>
+        <ol class="orderedlist" id="gallaugher-ch08_s02_l01">
+            <li>Understand the mechanics of search, including how Google indexes the Web and ranks its organic search results.</li>
+            <li>Examine the infrastructure that powers Google and how its scale and complexity offer key competitive advantages.</li>
+        </ol>
+    </div>
+    <p class="para editable block" id="gallaugher-ch08_s02_p02">Before diving into how the firm makes money, let’s first understand how Google’s core service, search, works.</p>
+    <p class="para editable block" id="gallaugher-ch08_s02_p03">Perform a search (or <span class="margin_term"><a class="glossterm">query</a><span class="glossdef">Search.</span></span>) on Google or another search engine, and the results you’ll see are referred to by industry professionals as <span class="margin_term"><a class="glossterm">organic or natural search</a><span class="glossdef">Search engine results returned and ranked according to relevance.</span></span>. Search engines use different algorithms for determining the order of organic search results, but at Google the method is called <span class="margin_term"><a class="glossterm">PageRank</a><span class="glossdef">Algorithm developed by Google cofounder Larry Page to rank Web sites.</span></span> (a bit of a play on words, it ranks Web pages, and was initially developed by Google cofounder Larry Page). Google does not accept money for placement of links in organic search results. Instead, PageRank results are a kind of popularity contest. Web pages that have more pages <em class="emphasis">linking to them</em> are ranked higher.</p>
+    <div class="figure large editable block" id="gallaugher-ch08_s02_f01">
+        <p class="title"><span class="title-prefix">Figure 8.5</span> </p>
+        <img src="section_12/704e9bf239e5d325888d60f662a700f2.jpg">
+        <p class="para">The query for “Toyota Prius” triggers organic search results, flanked top and right by sponsored link advertisements.</p>
+    </div>
+    <p class="para editable block" id="gallaugher-ch08_s02_p04">The process of improving a page’s organic search results is often referred to as <span class="margin_term"><a class="glossterm">search engine optimization (SEO)</a><span class="glossdef">The process of improving a page’s organic search results.</span></span>. SEO has become a critical function for many marketing organizations since if a firm’s pages aren’t near the top of search results, customers may never discover its site.</p>
+    <p class="para editable block" id="gallaugher-ch08_s02_p05">Google is a bit vague about the specifics of precisely how PageRank has been refined, in part because many have tried to game the system. The less scrupulous have tried creating a series of bogus Web sites, all linking back to the pages they’re trying to promote (this is called <span class="margin_term"><a class="glossterm">link fraud</a><span class="glossdef">Also called “spamdexing” or “link farming.” The process of creating a series of bogus Web sites, all linking back to the pages one is trying to promote.</span></span>, and Google actively works to uncover and shut down such efforts). We do know that links from some Web sites carry more weight than others. For example, links from Web sites that Google deems as “influential,” and links from most “.edu” Web sites, have greater weight in PageRank calculations than links from run-of-the-mill “.com” sites.</p>
+    <div class="callout editable block" id="gallaugher-ch08_s02_n02">
+        <h3 class="title">Spiders and Bots and Crawlers—Oh My!</h3>
+        <p class="para" id="gallaugher-ch08_s02_p06">When performing a search via Google or another search engine, you’re not actually searching the Web. What really happens is that the major search engines make what amounts to a <em class="emphasis">copy</em> of the Web, storing and indexing the text of online documents on their own computers. Google’s index considers over one trillion URLs.<span class="footnote" id="fwk-gallaugher-fn08_012">A. Wright, “Exploring a ‘Deep Web’ That Google Can’t Grasp,” <em class="emphasis">New York Times</em>, February 23, 2009.</span> The upper right-hand corner of a Google query shows you just how fast a search can take place (in the example above, rankings from over eight million results containing the term “Toyota Prius” were delivered in less than two tenths of a second).</p>
+        <p class="para" id="gallaugher-ch08_s02_p07">To create these massive indexes, search firms use software to crawl the Web and uncover as much information as they can find. This software is referred to by several different names: <span class="margin_term"><a class="glossterm">software robots, spiders, Web crawlers</a><span class="glossdef">Software that traverses available Web links in an attempt to perform a given task. Search engines use spiders to discover documents for indexing and retrieval.</span></span>. They all pretty much work the same way. In order to make its Web sites visible, every online firm provides a list of all of the public, named servers on its network, known as <span class="margin_term"><a class="glossterm">Domain Name Service (DNS)</a><span class="glossdef">Internet directory service that allows devices and services to be named and discoverable. The DNS, for example, helps your browser locate the appropriate computers when entering an address like <a class="link" target="_blank" href="http://finance.google.com">http://finance.google.com</a>.</span></span> listings. For example, Yahoo! has different servers that can be found at <a class="link" target="_blank" href="http://www.yahoo.com">http://www.yahoo.com</a>, <a class="link" target="_blank" href="http://sports.yahoo.com">sports.yahoo.com</a>, <a class="link" target="_blank" href="http://weather.yahoo.com">weather.yahoo.com</a>, <a class="link" target="_blank" href="http://finance.yahoo.com">finance.yahoo.com</a>, et cetera. Spiders start at the first page on every public server and follow every available link, traversing a Web site until all pages are uncovered.</p>
+        <p class="para" id="gallaugher-ch08_s02_p08">Google will crawl frequently updated sites, like those run by news organizations, as often as several times an hour. Rarely updated, less popular sites might only be reindexed every few days. The method used to crawl the Web also means that if a Web site isn’t the first page on a public server, or isn’t linked to from another public page, then it’ll never be found.<span class="footnote" id="fwk-gallaugher-fn08_013">Most Web sites do have a link where you can submit a Web site for indexing, and doing so can help promote the discovery of your content.</span> Also note that each search engine also offers a page where you can submit your Web site for indexing.</p>
+        <p class="para" id="gallaugher-ch08_s02_p09">While search engines show you what they’ve found on their <em class="emphasis">copy</em> of the Web’s contents; clicking a search result will direct you to the actual Web site, not the copy. But sometimes you’ll click a result only to find that the Web site doesn’t match what the search engine found. This happens if a Web site was updated before your search engine had a chance to reindex the changes. In most cases you can still pull up the search engine’s copy of the page. Just click the “Cached” link below the result (the term <span class="margin_term"><a class="glossterm">cache</a><span class="glossdef">A temporary storage space used to speed computing tasks.</span></span> refers to a temporary storage space used to speed computing tasks).</p>
+        <p class="para" id="gallaugher-ch08_s02_p10">But what if you want the content on your Web site to remain off limits to search engine indexing and caching? Organizations have created a set of standards to stop the spider crawl, and all commercial search engines have agreed to respect these standards. One way is to put a line of <em class="emphasis">HTML code</em> invisibly embedded in a Web site that tells all software robots to stop indexing a page, stop following links on the page, or stop offering old page archives in a cache. Users don’t see this code, but commercial Web crawlers do. For those familiar with HTML code (the language used to describe a Web site), the command to stop Web crawlers from indexing a page, following links, and listing archives of cached pages looks like this:</p>
+        <p class="para" id="gallaugher-ch08_s02_p11">&lt;META NAME=“ROBOTS” CONTENT=“NOINDEX, NOFOLLOW, NOARCHIVE”&gt;</p>
+        <p class="para" id="gallaugher-ch08_s02_p12">There are other techniques to keep the spiders out, too. Web site administrators can add a special file (called robots.txt) that provides similar instructions on how indexing software should treat the Web site. And a lot of content lies inside the “<em class="emphasis">dark Web</em>,” either behind corporate firewalls or inaccessible to those without a user account—think of private Facebook updates no one can see unless they’re your friend—all of that is out of Google’s reach.</p>
+    </div>
+    <div class="callout block" id="gallaugher-ch08_s02_n03">
+        <h3 class="title">What’s It Take to Run This Thing?</h3>
+        <p class="para" id="gallaugher-ch08_s02_p13">Sergey Brin and Larry Page started Google with just four scavenged computers.<span class="footnote" id="fwk-gallaugher-fn08_014">M. Liedtke, “Google Reigns as World’s Most Powerful 10-Year-Old,” <em class="emphasis">Associated Press</em>, September 5, 2008.</span> But in a decade, the infrastructure used to power the search sovereign has ballooned to the point where it is now the largest of its kind in the world.<span class="footnote" id="fwk-gallaugher-fn08_015">David F. Carr, “How Google Works,” <em class="emphasis">Baseline</em>, July 6, 2006.</span> Google doesn’t disclose the number of servers it uses, but by some estimates, it runs over 1.4 million servers in over a dozen so-called <span class="margin_term"><a class="glossterm">server farms</a><span class="glossdef">A massive network of computer servers running software to coordinate their collective use. Server farms provide the infrastructure backbone to SaaS and hardware cloud efforts, as well as many large-scale Internet services.</span></span> worldwide.<span class="footnote" id="fwk-gallaugher-fn08_016">R. Katz, “Tech Titans Building Boom,” <em class="emphasis">IEEE Spectrum</em> 46, no. 2 (February 1, 2009).</span> In 2008, the firm spent $2.18 billion on capital expenditures, with data centers, servers, and networking equipment eating up the bulk of this cost.<span class="footnote" id="fwk-gallaugher-fn08_017">Google, “Google Announces Fourth Quarter and Fiscal Year 2008 Results,” press release, January 22, 2009.</span> Building massive server farms to index the ever-growing Web is now the cost of admission for any firm wanting to compete in the search market. This is clearly no longer a game for two graduate students working out of a garage.</p>
+        <p class="simpara">Video Clip</p>
+        <p class="simpara">Google’s Container Data Center</p>
+        <div class="mediaobject">
+            <a data-iframe-code='&lt;iframe src="http://www.youtube.com/v/zRwPSFpLX8I" condition="http://img.youtube.com/vi/zRwPSFpLX8I/0.jpg" vendor="youtube" width="450" height="340" scalefit="1"&gt;&lt;/iframe&gt;' href="http://www.youtube.com/v/zRwPSFpLX8I" class="replaced-iframe" onclick="return replaceIframe(this)">(click to see video)</a>
+            <p class="para">Take a virtual tour of one of Google’s data centers.</p>
+        </div>
+        <p class="para" id="gallaugher-ch08_s02_p14">The size of this investment not only creates a barrier to entry, it influences industry profitability, with market-leader Google enjoying huge economies of scale. Firms may spend the same amount to build server farms, but if Google has two-thirds of this market (and growing) while Microsoft’s search draws only about one-tenth the traffic, which do you think enjoys the better return on investment?</p>
+        <p class="para" id="gallaugher-ch08_s02_p15">The hardware components that power Google aren’t particularly special. In most cases the firm uses the kind of Intel or AMD processors, low-end hard drives, and RAM chips that you’d find in a desktop PC. These components are housed in rack-mounted servers about 3.5 inches thick, with each server containing two processors, eight memory slots, and two hard drives.</p>
+        <p class="para" id="gallaugher-ch08_s02_p16">In some cases, Google mounts racks of these servers inside standard-sized shipping containers, each with as many as 1,160 servers per box.<span class="footnote" id="fwk-gallaugher-fn08_018">S. Shankland, “Google Unlocks Once-Secret Server,” <em class="emphasis">CNET</em>, April 1, 2009.</span> A given data center may have dozens of these server-filled containers all linked together. Redundancy is the name of the game. Google assumes individual components will regularly fail, but no single failure should interrupt the firm’s operations (making the setup what geeks call <span class="margin_term"><a class="glossterm">fault-tolerant</a><span class="glossdef">Systems that are capable of continuing operation even if a component fails.</span></span>). If something breaks, a technician can easily swap it out with a replacement.</p>
+        <p class="para" id="gallaugher-ch08_s02_p17">Each server farm layout has also been carefully designed with an emphasis on lowering power consumption and cooling requirements. And the firm’s custom software (much of it built upon open-source products) allows all this equipment to operate as the world’s largest grid computer.</p>
+        <p class="para" id="gallaugher-ch08_s02_p18">Web search is a task particularly well suited for the massively parallel architecture used by Google and its rivals. For an analogy of how this works, imagine that working alone, you need try to find a particular phrase in a hundred-page document (that’s a one server effort). Next, imagine that you can distribute the task across five thousand people, giving each of them a separate sentence to scan (that’s the multi-server grid). This difference gives you a sense of how search firms use massive numbers of servers and the divide-and-conquer approach of grid computing to quickly find the needles you’re searching for within the Web’s haystack (for more on grid computing, see <a class="xref" href="gallaugher-ch04#gallaugher-ch04">Chapter 4 "Moore’s Law and More: Fast, Cheap Computing and What It Means for the Manager"</a>, and for more on server farms, see <a class="xref" href="gallaugher-ch10#gallaugher-ch10">Chapter 10 "Software in Flux: Partly Cloudy and Sometimes Free"</a>).</p>
+        <div class="figure medium" id="gallaugher-ch08_s02_f02">
+            <p class="title"><span class="title-prefix">Figure 8.6</span> </p>
+            <img src="section_12/6454f7ce995384a2d44943f0a657f81a.jpg">
+            <p class="para">The Google Search Appliance is a hardware product that firms can purchase in order to run Google search technology within the privacy and security of an organization’s firewall.</p>
+        </div>
+        <p class="para" id="gallaugher-ch08_s02_p19">Google will even sell you a bit of its technology so that you can run your own little Google in-house without sharing documents with the rest of the world. Google’s line of search appliances are rack-mounted servers that can index documents within a corporation’s Web site, even specifying password and security access on a per-document basis. Selling hardware isn’t a large business for Google, and other vendors offer similar solutions, but search appliances can be vital tools for law firms, investment banks, and other document-rich organizations.</p>
+    </div>
+    <div class="callout block" id="gallaugher-ch08_s02_n04">
+        <h3 class="title">Trendspotting with Google</h3>
+        <p class="para" id="gallaugher-ch08_s02_p20">Google not only gives you search results, it lets you see aggregate trends in what its users are searching for, and this can yield powerful insights. For example, by tracking search trends for flu symptoms, Google’s Flu Trends Web site can pinpoint outbreaks one to two weeks faster than the Centers for Disease Control and Prevention.<span class="footnote" id="fwk-gallaugher-fn08_019">S. Bruce, “Google Says User Data Aids Flu Detection,” <em class="emphasis">eHealthInsider</em>, May 25, 2009.</span> Want to go beyond the flu? Google’s Trends, and Insights for Search services allow anyone to explore search trends, breaking out the analysis by region, category (image, news, product), date, and other criteria. Savvy managers can leverage these and similar tools for competitive analysis, comparing a firm, its brands, and its rivals.</p>
+        <div class="figure large" id="gallaugher-ch08_s02_f03">
+            <p class="title"><span class="title-prefix">Figure 8.7</span> </p>
+            <img src="section_12/dd2c28ded4bd01c8834017e09a152b51.jpg">
+            <p class="para">Google Insights for Search can be a useful tool for competitive analysis and trend discovery. The chart shows a comparison (over a twelve-month period, and geographically) of search interest in the terms Wii, Playstation, and Xbox.</p>
+        </div>
+    </div>
+    <div class="key_takeaways editable block" id="gallaugher-ch08_s02_n05">
+        <h3 class="title">Key Takeaways</h3>
+        <ul class="itemizedlist" id="gallaugher-ch08_s02_l02">
+            <li>Ranked search results are often referred to as organic or natural search. PageRank is Google’s algorithm for ranking search results. PageRank orders organic search results based largely on the number of Web sites linking to them, and the “weight” of each page as measured by its “influence.”</li>
+            <li>Search engine optimization (SEO) is the process of using natural or organic search to increase a Web site’s traffic volume and visitor quality. The scope and influence of search has made SEO an increasingly vital marketing function.</li>
+            <li>Users don’t really search the Web; they search an archived copy built by crawling and indexing discoverable documents.</li>
+            <li>Google operates from a massive network of server farms containing hundreds of thousands of servers built from standard, off-the-shelf items. The cost of the operation is a significant barrier to entry for competitors. Google’s share of search suggests the firm can realize economies of scales over rivals required to make similar investments while delivering fewer results (and hence ads).</li>
+            <li>Web site owners can hide pages from popular search-engine Web crawlers using a number of methods, including HTML tags, a no-index file, or ensuring that Web sites aren’t linked to other pages and haven’t been submitted to Web sites for indexing.</li>
+        </ul>
+    </div>
+    <div class="exercises editable block" id="gallaugher-ch08_s02_n06">
+        <h3 class="title">Questions and Exercises</h3>
+        <ol class="orderedlist" id="gallaugher-ch08_s02_l03">
+            <li>How do search engines discover pages on the Internet? What kind of capital commitment is necessary to go about doing this? How does this impact competitive dynamics in the industry?</li>
+            <li>How does Google rank search results? Investigate and list some methods that an organization might use to improve its rank in Google’s organic search results. Are there techniques Google might not improve of? What risk does a firm run if Google or another search firm determines that it has used unscrupulous SEO techniques to try to game ranking algorithms?</li>
+            <li>Sometimes Web sites returned by major search engines don’t contain the words or phrases that initially brought you to the site. Why might this happen?</li>
+            <li>What’s a cache? What other products or services have a cache?</li>
+            <li>What can be done if you want the content on your Web site to remain off limits to search engine indexing and caching?</li>
+            <li>What is a “search appliance?” Why might an organization choose such a product?</li>
+            <li>Become a better searcher: Look at the advanced options for your favorite search engine. Are there options you hadn’t used previously? Be prepared to share what you learn during class discussion.</li>
+            <li>Visit Google Trends and Google Insights for Search. Explore the tool as if you were comparing a firm with its competitors. What sorts of useful insights can you uncover? How might businesses use these tools?</li>
+        </ol>
+    </div>
+</div>
+
+  </div>
+  
+  <div id=navbar-bottom class="navbar">
+    <div class="navbar-part left">
+      
+        <a href="s12-01-introduction.html"><img src="shared/images/batch-left.png"></a> <a href="s12-01-introduction.html">Previous Section</a>
+      
+    </div>
+    <div class="navbar-part middle">
+      <a href="index.html"><img src="shared/images/batch-up.png"></a> <a href="index.html">Table of Contents</a>
+    </div>
+    <div class="navbar-part right">
+      
+        <a href="s12-03-understanding-the-increase-in-.html">Next Section</a> <a href="s12-03-understanding-the-increase-in-.html"><img src="shared/images/batch-right.png"></a>
+      
+    </div>
+  </div>
+
+  </div>
+  <script type="text/javascript" src="shared/book.js"></script>
+  
+  
+</body>
+</html>
